@@ -1,0 +1,51 @@
+.main-container {
+  padding: 20px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 70px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  min-width: 60%;
+  margin: 20px;
+  padding: 20px 30px;
+  border: 1px solid #c0c0c083;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.2s ease-in;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+}
+
+.feature:hover {
+  background-color: #36b2eb81;
+  transform: scale(1.1);
+}
+.btn
+{
+  background-color: rgba(48, 146, 237, 0.872);
+  border-radius: 10px;
+  padding: 5px 10px;
+}

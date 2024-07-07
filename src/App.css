@@ -1,0 +1,65 @@
+
+.table-cntnr {
+  overflow-x: auto;
+  margin: 10px;
+}
+
+.table-cntnr table {
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  display: table;
+  margin: 0 auto;
+  vertical-align: center;
+  border-collapse: collapse;
+  background: #215161; /* dark blue */
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+
+.table-cntnr table th {
+  border-bottom: 1px solid #364043; /* dark gray */
+  color: #cebe8d; /* yellow-orange */
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.table-cntnr table td {
+  border: 1px solid #e7e7e732; /* light gray */
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  color: #fff; /* white */
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+
+.table-cntnr table tbody tr {
+  transition: #358faa 0.25s ease; /* dark blue */
+}
+
+.table-cntnr table tbody tr:hover {
+  background: #12aee2; /* darker blue */
+}
+
+.table-cntnr table button {
+  padding: 4px 6px;
+  border-radius: 10px;
+  background: #36B3EB; /* bright blue */
+  color: #fff; /* white */
+  border: none;
+  cursor: pointer;
+}
+
+.table-cntnr table button:hover {
+  background: #2E8BCF; /* darker bright blue */
+}
+
+@media screen and (max-width: 750px) {
+  .table-cntnr {
+    overflow-x: scroll;
+    margin: 3px;
+  }
+}

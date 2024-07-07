@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: none;
+  font-weight: 500;
+
+  overflow-x: hidden;
+  color: #333; /* Dark gray text color */
+  background: #3498db; /* Bright blue background */
+  background: -webkit-linear-gradient(to right, #3498db, #2980b9, #1a1d23);
+  background: linear-gradient(to right, #3498db, #2980b9, #1a1d23);
+}
+code {
+  font-family: 'Inconsolata', monospace;
+}
+
+ 
